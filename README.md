@@ -9,3 +9,14 @@ If you'd like to know more about this project, read the [post on dev.to](https:/
 - Abstract only to the extent that this project can be discarded without discarding the infrastructure
 - Provide the value of a monolith (shortest path to production, low infrastructure management cost) with the benefits of a microservices (horizontal scalability, isolated processes).
 - Prioritize use cases for small teams
+
+# Get started
+
+Requirements
+- A bash-like terminal
+- kubectl
+- A kubernetes cluster (minikube is great)
+- Make (you probably already have this on your system)
+
+## Step 1: Fork
+## Step 2: Run `make up`
