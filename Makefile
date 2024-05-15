@@ -1,11 +1,7 @@
-NAMESPACE := sunflower
-
 up:
-	# kubectl create namespace ${NAMESPACE}
 	${MAKE} up-cicd
 
 down:
-	kubectl delete namespace ${NAMESPACE}
 	${MAKE} down-cicd
 
 # Area-specific commands
